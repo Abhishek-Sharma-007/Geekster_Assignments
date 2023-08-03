@@ -57,5 +57,5 @@
 ---
 # Submission Required:
 - GitHub Repository Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/24_Assignment_1-Netflix)
-- README.md File Link: [Click Me]()
+- README.md File Link: [Click Me](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/24_Assignment_1-Netflix/README.md)
 - Hosted Link: [Tap Here](https://abhishek-sharma-007.github.io/Geekster_Assignments/24_Assignment_1-Netflix/index.html)
