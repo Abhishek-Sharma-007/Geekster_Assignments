@@ -54,7 +54,7 @@
 ---
 ##Submission Required
 - GitHub Repository link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/25_Assignment_2-Color_Marker)
-- README.md File Link: [Click Here]()
+- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/25_Assignment_2-Color_Marker/README.md)
 - Hosted Link: [Click Here](https://abhishek-sharma-007.github.io/Geekster_Assignments/25_Assignment_2-Color_Marker/index.html)
 - FreeCodeCamp Assignment Link: [Click Here](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-94)
 - FreeCodeCamp ID Link: [Click Here](https://www.freecodecamp.org/Abhishek_77)
