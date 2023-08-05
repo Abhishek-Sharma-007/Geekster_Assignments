@@ -69,5 +69,5 @@
 ---
 ## Submission Required:
 - GitHub Repository Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/26_Assignment_2-Background_Properties)
-- README.md File Link: [Click Here]()
+- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/26_Assignment_2-Background_Properties/README.md)
 - Hosted Link: [Click Here](https://abhishek-sharma-007.github.io/Geekster_Assignments/26_Assignment_2-Background_Properties/index.html)
