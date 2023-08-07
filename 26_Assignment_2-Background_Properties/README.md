@@ -63,6 +63,13 @@
    - The HTML file links to an external stylesheet (`style.css`) to apply the defined styles.
 
 ---
+## OUTPUT:
+
+![image](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/4f139403-75cf-4f92-8114-88275c5a2c9d)
+
+![image](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c7003c12-3d9e-497f-9f79-a558e30956de)
+
+---
 ## CONCLUSION:
 
 **The entire code creates a simple webpage with a navigation bar, sections with background images, and a responsive layout. The CSS styles are used to customize the appearance of various elements, creating a visually appealing webpage.**
