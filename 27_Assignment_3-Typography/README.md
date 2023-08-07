@@ -41,6 +41,11 @@
    - The "p" selector styles all paragraphs with a color of "rgba(0, 0, 0, 0.6)" (a somewhat transparent black).
    
 ---
+## OUTPUT:
+
+![image](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/768a722d-10ca-438b-aee7-38f10fd279a8)
+
+---
 ## Submission Required:
 - GitHub Repository Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/27_Assignment_3-Typography)
 - README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/27_Assignment_3-Typography/README.md)
