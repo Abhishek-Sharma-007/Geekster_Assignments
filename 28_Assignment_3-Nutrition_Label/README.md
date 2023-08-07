@@ -54,6 +54,11 @@
 - `.left-container p` and `.calories-info
 
 ---
+## OUTPUT:
+
+![image](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/eb7e296d-3566-4b28-b19e-552b196852a4)
+
+---
 ## Submission Required:
 - GitHub Repository Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/28_Assignment_3-Nutrition_Label)
 - README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/28_Assignment_3-Nutrition_Label/README.md)
