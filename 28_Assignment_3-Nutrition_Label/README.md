@@ -56,5 +56,5 @@
 ---
 ## Submission Required:
 - GitHub Repository Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/28_Assignment_3-Nutrition_Label)
-- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/27_Assignment_3-Typography/README.md)
+- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/28_Assignment_3-Nutrition_Label/README.md)
 - Hosted Link: [Click Here](https://abhishek-sharma-007.github.io/Geekster_Assignments/28_Assignment_3-Nutrition_Label/index.html)
