@@ -63,5 +63,5 @@
 ---
 ## Submission Required:
 - GitHub Repository Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/29_Assignment%20_4%20-Shoe_Page)
-- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/28_Assignment_3-Nutrition_Label/README.md)
+- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/29_Assignment%20_4%20-Shoe_Page/README.md)
 - Hosted Link: [Click Here](https://abhishek-sharma-007.github.io/Geekster_Assignments/29_Assignment%20_4%20-Shoe_Page/index.html)
