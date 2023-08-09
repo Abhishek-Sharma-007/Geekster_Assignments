@@ -47,7 +47,7 @@
 ---
 ## Submission Required:
 - GitHub Repository Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/31_Assignment_5-Box_Model_Project)
-- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/30_Assignment_4_-Coffee_House/README.md)
+- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/31_Assignment_5-Box_Model_Project/README.md)
 - Hosted Link: [Click Here](https://abhishek-sharma-007.github.io/Geekster_Assignments/31_Assignment_5-Box_Model_Project/index.html)
 - FreeCodeCamp ID Link: [Click Me](https://www.freecodecamp.org/Abhishek_77)
 - FreeCodeCamp Last Step Link:[Tap On](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-the-css-box-model-by-building-a-rothko-painting/step-45)
