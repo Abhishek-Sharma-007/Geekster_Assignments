@@ -82,5 +82,5 @@
 ---
 ## Submission Required:
 - GitHub Repository Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/33_Weekly_TesT-3_CSS_Properties)
-- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/32_Assignment_5-Box_Model/README.md)
+- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/33_Weekly_TesT-3_CSS_Properties/README.md)
 - Hosted Link: [Click Here](https://abhishek-sharma-007.github.io/Geekster_Assignments/33_Weekly_TesT-3_CSS_Properties/index.html)
