@@ -1,0 +1,166 @@
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3
+$ git clone https://github.com/Abhishek-Sharma-007/Food.git
+Cloning into 'Food'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3
+$ ll
+total 0
+drwxr-xr-x 1 dcent 197121 0 Jul 22 03:20 Food/
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3
+$ cd Food/
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$ ls
+Fruits/  Grains/  Vegetable/
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$ cd Vegetable/
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food/Vegetable (main)
+$ touch cabbage.txt
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food/Vegetable (main)
+$ nano cabbage.txt
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food/Vegetable (main)
+$ cd ..
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$ ls
+Fruits/  Grains/  Vegetable/
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$ cd Fruits/
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food/Fruits (main)
+$ ls
+Apple.txt
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food/Fruits (main)
+$ rm Apple.txt
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food/Fruits (main)
+$ touch watermelon.txt
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food/Fruits (main)
+$ nano watermelon.txt
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food/Fruits (main)
+$ cat watermelon.txt
+watermelon.txt File has been created after deleting Apple.txt.
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food/Fruits (main)
+$ ll
+total 1
+-rw-r--r-- 1 dcent 197121 63 Jul 22 03:23 watermelon.txt
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food/Fruits (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Apple.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        watermelon.txt
+        ../Vegetable/cabbage.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food/Fruits (main)
+$ cd ..
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Fruits/Apple.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Fruits/watermelon.txt
+        Vegetable/cabbage.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$ git add .
+warning: in the working copy of 'Fruits/watermelon.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Vegetable/cabbage.txt', LF will be replaced by CRLF the next time Git touches it
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$ git commit -m "Added cabbage in Vegetable and watermelon in Fruits, and deleted Apple from Fruits."
+[main e345e7e] Added cabbage in Vegetable and watermelon in Fruits, and deleted Apple from Fruits.
+ 3 files changed, 2 insertions(+)
+ delete mode 100644 Fruits/Apple.txt
+ create mode 100644 Fruits/watermelon.txt
+ create mode 100644 Vegetable/cabbage.txt
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$ git log
+commit e345e7e463d0676a7649faf91298c2e2640abbaa (HEAD -> main)
+Author: Abhishek-Sharma-007 <abhisheksharma14077@gmail.com>
+Date:   Sat Jul 22 03:26:43 2023 +0530
+
+    Added cabbage in Vegetable and watermelon in Fruits, and deleted Apple from Fruits.
+
+commit 0e1f446e7a2c05ef663a4bc5aad2061160ad43a2 (origin/main, origin/HEAD)
+Author: priyanshu <priyanshoochoudhary@gmail.com>
+Date:   Wed Jul 19 07:54:44 2023 +0530
+
+    my commit
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$ git remote
+origin
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$ git push origin main
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 607 bytes | 607.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Abhishek-Sharma-007/Food.git
+   0e1f446..e345e7e  main -> main
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$ git log
+commit e345e7e463d0676a7649faf91298c2e2640abbaa (HEAD -> main, origin/main, origin/HEAD)
+Author: Abhishek-Sharma-007 <abhisheksharma14077@gmail.com>
+Date:   Sat Jul 22 03:26:43 2023 +0530
+
+    Added cabbage in Vegetable and watermelon in Fruits, and deleted Apple from Fruits.
+
+commit 0e1f446e7a2c05ef663a4bc5aad2061160ad43a2
+Author: priyanshu <priyanshoochoudhary@gmail.com>
+Date:   Wed Jul 19 07:54:44 2023 +0530
+
+    my commit
+
+dcent@MULTIVERSE MINGW64 /d/Geekster_FSD/M_3/Assignments/Git Homework 3/Assignment_3/Food (main)
+$
