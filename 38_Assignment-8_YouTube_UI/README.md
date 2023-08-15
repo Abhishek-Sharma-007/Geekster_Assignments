@@ -7,7 +7,7 @@
 
 **index.html file & style.css**
 
-![style css - Geekster_Assignments - Visual Studio Code 15-08-2023 21_38_13](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/d36ac42d-0068-4649-badd-d8d772d03b99)
+![YouTube Clone - Personal - Microsoft​ Edge 15-08-2023 22_17_03](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/71136c9c-e267-4516-971d-6abb2940d746)
 
 ![style css - Geekster_Assignments - Visual Studio Code 15-08-2023 21_38_40](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/2813fc12-a36d-4377-9d29-924e11ecc756)
 
