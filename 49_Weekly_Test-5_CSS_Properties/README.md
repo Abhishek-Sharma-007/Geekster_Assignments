@@ -108,6 +108,6 @@ This HTML and CSS code represents a simple web page layout for an Amazon-like on
 
 ---
 ## Submission Required:
-- GitHub Repository Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/9_Weekly_Test-5_CSS_Properties)
-- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/9_Weekly_Test-5_CSS_Properties/README.md)
-- Hosted Link: [Click Here](https://abhishek-sharma-007.github.io/Geekster_Assignments/9_Weekly_Test-5_CSS_Properties/index.html)
+- GitHub Repository Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/49_Weekly_Test-5_CSS_Properties)
+- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/49_Weekly_Test-5_CSS_Properties/README.md)
+- Hosted Link: [Click Here](https://abhishek-sharma-007.github.io/Geekster_Assignments/49_Weekly_Test-5_CSS_Properties/index.html)
