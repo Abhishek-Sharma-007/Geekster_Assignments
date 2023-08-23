@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    background-color: #ECF2F8;
+    place-content: center;
+    min-height: 100vh;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+.same1{
+    color: white;
+    font-size: 12px;
+    padding: 0 1rem;
+}
+.same2{
+    color: rgb(63, 61, 61);
+    font-size: 12px;
+    padding: 0 1rem;
+}
+.item-1{
+    background-color: #7541C8;
+    background-image: url(bg-pattern-quotation.svg);
+    background-position: top right 10%;
+    background-repeat: no-repeat;
+}
+.item-2{
+    background-color: #48556A;
+}
+.item-3{
+    background-color: #ffffff;
+}
+.item-4{
+    background-color: #19212E;
+}
+.item-5{
+    background-color: #ffffff;
+}
+.main-grid{
+    display: grid;
+    gap: 1.5rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 
+    'one'
+    'two'
+    'three'
+    'four'
+    'five';
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+}
+.article{
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 5px rgb(231, 218, 218);
+}
+.article:nth-child(1){
+    grid-area: one;
+}
+.article:nth-child(2){
+    grid-area: two;
+}
+.article:nth-child(3){
+    grid-area: three;
+}
+.article:nth-child(4){
+    grid-area: four;
+}
+.article:nth-child(5){
+    grid-area: five;
+}
+.article .position{
+    font-size: 12px;
+    padding: 0 1rem;
+    color: lightgray;
+}
+.article .upper1{
+    font-size: 20px;
+    margin: 15px 0;
+    color: white;
+}
+.article .upper2{
+    font-size: 20px;
+    margin: 15px 0;
+    color: rgb(94, 93, 93);
+}
+.article .m-content{
+    font-size: 13px;
+    color: gray;
+    line-height: 1.2rem;
+}
+.article .m-content2{
+    font-size: 13px;
+    color: rgb(223, 217, 217);
+    line-height: 1.2rem;
+}
+.flex{
+    display: flex;
+}
+.article img{
+    width: 1.75rem;
+    border-radius: 50%;
+    max-width: 100%;
+    display: block;
+}
+@media screen and (min-width: 33em) {
+    .main-grid {
+        grid-template-areas:
+        "one one"
+        "two three"
+        "five five"
+        "four four";
+    }
+  }
+  
+  @media screen and (min-width: 38em) {
+    .main-grid {
+      grid-template-areas:
+       'one one'
+       'two five'
+       'three five'
+       'four four';
+    }
+  }
+  
+@media screen and (min-width: 54em) {
+    .main-grid {
+        grid-template-areas:
+        "one one two"
+        "five five five"
+        "three four four";
+    }
+}
+@media screen and (min-width: 75em) {
+    .main-grid {
+        grid-template-areas:
+        "one one two five"
+        "three four four five";
+    }
+}
+  

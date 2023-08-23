@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@500&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Roboto+Serif:opsz@8..144&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,p{
+    font-family: 'Roboto', sans-serif;
+}
+.main-container{
+    background-color: #F0C50B;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10rem;
+}
+.above-main{
+    height: 20vh;
+}
+img{
+    width: 50%;
+    height: 600px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    transform: translateY(-10vh);
+}
+.text{
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+}
+.main-container .text h1{
+    font-size: 50px;
+}
+.main-container .text p{
+    font-size: 20px;
+    line-height: 2rem;
+    font-weight: 1000;
+}
+.underline{
+    text-decoration: underline;
+}
+.text .imp p{
+    font-size: 15px;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.5pt;
+    font-size: x-small;
+    cursor: pointer;
+}
+button:hover{
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+/* ---Media Queries--- */
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .main-container{
+        padding: 0 3rem;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 800px) {
+    .main-container{
+        padding: 0 1rem;
+    }
+    img{
+        width: 60%;
+    }
+    .text{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .main-container{
+        padding: 0 1rem;
+    }
+    img{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+}
