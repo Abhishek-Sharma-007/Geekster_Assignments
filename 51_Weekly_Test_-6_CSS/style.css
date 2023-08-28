@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@500&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Roboto+Serif:opsz@8..144&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Serif', serif; */
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+hr {width: 50%; margin: 0 25% 0 25%;}
+
+
+/* -------------Navbar--------------- */
+.header-sec{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.top{
+    background-color: black;
+    height: 15px;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1rem 3rem;
+    box-shadow: 5px 2px #888888;;
+}
+.navbar .items{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar .items .links{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+.navbar .items li:hover{
+    color: red;
+    cursor: pointer;
+}
+.navbar .items .icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+.navbar .items i:hover{
+    color: red;
+}
+/* -------------Home page------------ */
+.home .img-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.home .img-box .img-items{
+    height: auto;
+    width: 50%;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+}
+.home .img-box .img-items img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+}
+.home .img-box .img-items .img-box1:hover{
+    transform: scale(1.1);
+}
+.home .img-box .img-items p,h3{
+    top: 43%;
+    left: 28%;
+    position: absolute;
+}
+.home .img-box .img-items .top1{
+    padding: 5rem 1rem;
+    position: absolute;
+}
+.home .img-box .img-items .top2{
+    padding: 5rem 0.2rem;
+    position: absolute;
+}
+.home .img-box .img-items p img{
+    width: 20rem;
+}
+.home .img-box .img-items .img-box1{
+    filter: contrast(35%);
+}
+/* ---------Banner---------------- */
+.banner{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7rem;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+/* ---------Info------------ */
+.info{
+    margin: 2rem;
+    font-size: 1.2rem;
+}
+.info p,h4{
+    font-size: 1.1rem;
+}
+.info span{
+    color: red;
+    text-decoration: underline;
+}
+/* ---Features---- */
+.features{
+    display: flex;
+    padding: 2rem 8rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.features-rev{
+    display: flex;
+    padding: 2rem 8rem;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.features .img-col,.features .content,.features-rev .img-col,.features-rev .content{
+    width: 45%;
+}
+.features .img-col img{
+    width: 80%;
+}
+.features-rev .img-col img{
+    width: 100%;
+}
+.features .content p,.features-rev .content p{
+    line-height: 1.4rem;
+}
+.features .content button,.features-rev .content button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+.features .content button:hover,.features-rev .content button:hover{
+    background-color: #888888;
+}
+/* ---------Banner-2--------- */
+.banner-2{
+    background-image: url('https://boostedusa.com/cdn/shop/files/boosted-rev-display_3000x.jpg?v=1646160921');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 80vh;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-weight: 800;
+}
+.banner-2 h1{
+    font-size: 3rem;
+}
+.banner-2 button{
+    padding: 9px 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    margin: 1rem;
+}
+.banner-2 button:hover{
+    background-color: #888888;
+}
+.youtube{
+    padding: 2rem 12rem;
+}
+/* ----Banner-3------- */
+.banner-3{
+    background-image: url('https://boostedusa.com/cdn/shop/files/evolve-skateboards-1_3000x.jpg?v=1646161047');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 80vh;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-weight: 800;
+    color: white;
+}
+.banner-3 button{
+    padding: 9px 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    margin: 1rem;
+}
+.banner-3 button:hover{
+    background-color: #888888;
+}
+.banner-3 h1{
+    font-size: 3rem;
+}
+.banner-3 .text{
+    padding: 10rem;
+}
+/* ----Products------ */
+.products{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    overflow-x: scroll;
+    padding: 2rem 2rem;
+    overflow-x: scroll;
+}
+.products .items img{
+    width: 200px;
+}
+.products .items a{
+    text-decoration: none;
+    color: red;
+    text-align: center;
+}
+.products .items a span{
+    color: black;
+}
+
+/* ------Subscription------ */
+.subscribe{
+    padding: 3rem;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.subscribe .form-con{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.subscribe form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.subscribe form{
+    width: 30%;
+}
+.subscribe form .conditions{
+    font-size: 10px;
+    text-align: center;
+}
+.subscribe .headp h1{
+    font-size: 35px;
+}
+.subscribe form input{
+    padding: 0.75rem 1.2rem;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+.subscribe .form-con button{
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    border: none;
+    background-color: red;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    margin: 1rem;
+}
+.subscribe .form-con span{
+    color: red;
+}
+/* -----------Banner4------- */
+.banner-4{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.banner-4 .item img{
+    width: 30%;
+}
+.banner-4 .item{
+    width: 20%;
+    text-align: center;
+}
+/* ----------Footer------- */
+footer{
+    padding: 4rem 8rem;
+    background-color: #F7F7F7;
+}
+footer .container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    /* gap: 1rem; */
+}
+footer .container .items{
+    width: 40%;
+}
+footer .container .items ul{
+    list-style: none;
+}
+
+/* ----------Media Query-------------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar .items ul{
+        display: none;
+    }
+    .home .img-box .img-items{
+        width: 100%;
+    }
+    .home .img-box{
+        padding: 0;
+    }
+    
+    .home .img-box .img-items .top1{
+        top: 50%;
+        left: 20%;
+        position: absolute;
+    }
+    .home .img-box .img-items .top2{
+        top: 55%;
+        left: 20%;
+    }
+    .banner{
+        width: 100%;
+        gap: 2rem;
+    }
+    .info{
+        margin: 0.45rem;
+    }
+    .features{
+        padding: 1rem;
+    }
+    .features .img-col,.features .content,.features-rev .img-col,.features-rev .content{
+        width: 100%;
+    }
+    .features .img-col img{
+        width: 100%;
+    }
+    .features-rev{
+        width: 100%;
+        padding: 1rem;
+    }
+    .features-rev .img-col img{
+        width: 100%;
+    }
+    .youtube{
+        padding: 1rem;
+    }
+    .banner-3 .text{
+        padding: 1rem;
+    }
+    .subscribe{
+        padding: 1rem;
+    }
+    .subscribe form{
+        width: 100%;
+    }
+    .subscribe .headp h1{
+        text-align: center;
+    }
+    .banner-4{
+        width: 100%;
+    }
+    .banner-4 .item img{
+        width: 30%;
+    }
+    .banner-4 .item{
+        width: 100%;
+    }
+    footer{
+        background-color: #F7F7F7;
+        padding: 1rem;
+    }
+    footer .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    footer .container .items{
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .navbar .items li{
+        display: none;
+    }
+    .home .img-box .img-items p{
+        top: 30%;
+        left: 10%;
+        position: absolute;
+    }
+    .home .img-box .img-items .top1{
+        padding: 0.5rem;
+        font-size: 15px;
+        position: absolute;
+    }
+    .home .img-box .img-items .top2{
+        padding: 2rem 0rem;
+        font-size: 15px;
+    }
+    .features,.features-rev{
+        display: flex;
+        padding: 1rem;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+    .features .img-col,.features .content,.features-rev .img-col,.features-rev .content{
+        width: 100%;
+    }
+    .features .img-col img{
+        width: 100%;
+    }
+    .features-rev .img-col img{
+        width: 100%;
+    }
+    .youtube{
+        padding: 1rem;
+    }
+    footer{
+        background-color: #F7F7F7;
+        padding: 2rem;
+    }
+    footer .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    footer .container .items{
+        width: 100%;
+    }
+}
