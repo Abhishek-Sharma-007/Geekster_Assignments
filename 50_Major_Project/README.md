@@ -1,67 +1,129 @@
-# Major-Project
-Hosted-Link:: https://yadnika10.github.io/Major-Project/
-<br>
-Note:--Huge File
-<br>
-1.Navbar:<br>
--created a navbar section added one image i.e logo and ul to the navbar section.<br>
--Gave the display as flex, flex direction as row and position as fixed and gave a z-index to that and color to the navbar and some padding the ul also display flex.<br>
--Added the icons and clip-path code to that and hover effect<br>
-2.Home-page:<br>
--It has some text and background image as cover and position as center and min-height to that.
-3.Intro-section:<br>
--Intro has one image and one text section gave main section padding and added two divs one for img-box and other for text.<br>
--Gave two boxes as 40% and 70% width, and img width as 100% so it covers the whole space then some greyscale to image and transition on hover effect.<br>
--It also has one skill-container 3 large icons and info below it also as felx.<br>
--the boxes took 30% width each.<br>
-4.Services:<br>
--It and total 4 parts, first part has cards display as flex.<br>
--second part similar to intro part but the image takes the whole width so margin and padding from left zero and the 2nd proportion is reverse to first one.<br>
--fourth part has testimonials it has a scroll effect to it and display as flex.<br>
-5.Call Me:<br>
--It has some text on left and form on right. one div for text and other for form enclosed in a container div and display as flex and some padding and colors to it.<br>
-6.Projects:<br>
--Some buttons above that has display as flex and below images as grid and rows 2 so - 2,1fr and columns 4 so - 4,1fr.<br>
--Hover to the images so transition and opacity to the text on hover.<br>
-7.Team:
--Team has images and info and icons and display as flex.<br>
-8.About:
--About similar to Intro Section.<br>
-9.Contact:<br>
--Similar to the Call me section.<br>
-10.Media Queries:
--Media Queries for 950px 900px and 600px
--Where ever flex used gave it as width 100% and padding to 0 and flex wrap so it fits the particular screen and same for grid images rows and columns templates gave some valid values.<br>
--Saw the css breakpoints and adjusted the content based on that.<br>
-10.For icons used clip-path gave hover effects and change som e padding or style for Media Queries added menu bar display as none in Desktop screen and display as initial in small screens.<br>
+# Major Project
+---
+## TASK 
+- You need to complete **Major Project** task, and we have learned basic CSS Properties like:
+1. **Height/Width**:
+   - `height` and `width` are CSS properties used to control the dimensions of an element, like a container or an image.
+   - You can set these properties in various units such as pixels (`px`), percentages (%), viewport units (`vw` or `vh`), etc.
+   - Adjusting these properties allows you to control the size of elements on your UI.
+2. **Margin/Padding**:
+   - `margin` is used to create space around an element, pushing other elements away.
+   - `padding` creates space inside an element, separating its content from its border.
+   - Both properties are useful for creating spacing and alignment within your UI.
+3. **Flex Properties**:
+   - Flexbox is a layout model in CSS that helps in designing complex and responsive layouts with ease.
+   - Properties like `display: flex`, `flex-direction`, `justify-content`, and `align-items` allow you to arrange elements in rows or columns and control their alignment within a container.
+4. **Background Properties**:
+   - CSS provides various properties for styling backgrounds, including `background-color`, `background-image`, `background-repeat`, and `background-size`.
+   - These properties help you customize the background of an element, such as setting colors, images, and patterns.
+5. **Transition**:
+   - The `transition` property enables smooth transitions between CSS property changes. It's often used in conjunction with `hover` or other pseudo-classes.
+   - You specify which properties should transition and the duration/timing function of the transition.
+   - For example: `transition: width 0.3s ease-in-out;` would make changes to the element's width smooth over 0.3 seconds with an ease-in-out timing function.
+6. **Transform Effect**:
+   - The `transform` property allows you to apply various transformations to an element, like scaling, rotating, skewing, and translating (moving).
+   - Common values include `rotate()`, `scale()`, `translate()`, and `skew()`. For example, `transform: rotate(45deg);` would rotate an element by 45 degrees.
+7. **Google Fonts**:
+   - Google Fonts is a library of free and open-source fonts that can be easily integrated into your web projects using CSS.
+   - You can link to Google Fonts in your HTML document and then apply these fonts to your text elements using CSS.
+8. **Font Awesome**:
+   - Font Awesome is a popular icon library that provides a collection of scalable vector icons that can be easily used in your UI.
+   - You include Font Awesome in your HTML, and then you can add icons to your elements using specific CSS classes.
+---
+## CODE:
 
-![1](https://github.com/yadnika10/Major-Project/assets/122971264/f7909269-7790-4836-8529-1a677cd34f41)
-![2](https://github.com/yadnika10/Major-Project/assets/122971264/1a6e284a-2c2f-46d5-a610-f2c3cb846fa3)
-![3](https://github.com/yadnika10/Major-Project/assets/122971264/a0b6e5fb-2d29-4913-a1cb-df3ed402c63f)
-![4](https://github.com/yadnika10/Major-Project/assets/122971264/1c58fb7a-a8a1-4bb7-93aa-36de79ce7a62)
-![5](https://github.com/yadnika10/Major-Project/assets/122971264/3af4ae72-a5fd-4216-97b1-dea994f0ef23)
-![6](https://github.com/yadnika10/Major-Project/assets/122971264/15d8b4ac-b5d2-437f-bacf-e1235657ae34)
-![7](https://github.com/yadnika10/Major-Project/assets/122971264/6d6c9812-7159-4c21-81e7-78b15f7392f6)
-![8](https://github.com/yadnika10/Major-Project/assets/122971264/47131173-616c-44c7-9de8-edff11ad3788)
-![9](https://github.com/yadnika10/Major-Project/assets/122971264/5e7d6650-a323-4193-b223-bb7925319f95)
-![10](https://github.com/yadnika10/Major-Project/assets/122971264/d5e7ba1d-559f-4d1e-9271-5d6935025d80)
-![11](https://github.com/yadnika10/Major-Project/assets/122971264/77ced0f4-d231-4eb6-ae00-6e2317ee9d36)
-![1](https://github.com/yadnika10/Major-Project/assets/122971264/be0fdc67-7b16-483a-83aa-dc2a2bf1f31f)
-![2](https://github.com/yadnika10/Major-Project/assets/122971264/cd49b5c9-67fa-4008-a927-b84e5bb32a0e)
-![3](https://github.com/yadnika10/Major-Project/assets/122971264/b6629f5e-f58c-4a14-9961-c1e2ff09720a)
-![4](https://github.com/yadnika10/Major-Project/assets/122971264/b8825fba-ba72-4d82-b1f8-8add40ee888f)
-![5](https://github.com/yadnika10/Major-Project/assets/122971264/3f5e0493-3c1f-45f6-8ba4-1b1b1f3abb25)
-![6](https://github.com/yadnika10/Major-Project/assets/122971264/4978284f-cfca-45d3-bbe2-03905bbb266d)
-![7](https://github.com/yadnika10/Major-Project/assets/122971264/da1290eb-9713-4caf-a6b9-cf5b701003ab)
-![8](https://github.com/yadnika10/Major-Project/assets/122971264/f4aae47a-9784-4b29-b754-752909490bfc)
-![9](https://github.com/yadnika10/Major-Project/assets/122971264/920e165e-89c0-4e5f-98f6-b9d824d2ae75)
-![10](https://github.com/yadnika10/Major-Project/assets/122971264/2348ead0-52f3-4435-86d2-ded74c4b0137)
-![11](https://github.com/yadnika10/Major-Project/assets/122971264/749a3099-01b8-40b8-a8ff-c6cc6418f70b)
-![12](https://github.com/yadnika10/Major-Project/assets/122971264/c6fa829f-6647-4ad7-9d72-feba79c00de8)
-![13](https://github.com/yadnika10/Major-Project/assets/122971264/a7432797-baf2-4939-ae8c-6a422359a75e)
-![14](https://github.com/yadnika10/Major-Project/assets/122971264/19cf8424-41fb-4082-9b2b-d53881992453)
-![15](https://github.com/yadnika10/Major-Project/assets/122971264/2cd81221-cc93-4e5e-8c80-88a4d647d8ff)
-![16](https://github.com/yadnika10/Major-Project/assets/122971264/641eba55-cbad-4660-9dd6-b7464abd2a37)
-![17](https://github.com/yadnika10/Major-Project/assets/122971264/a1e04d4e-0762-47f8-8933-bed67920324c)
-![18](https://github.com/yadnika10/Major-Project/assets/122971264/2f0bfd0c-a58d-4a73-9787-4f6152a6d6c7)
-![19](https://github.com/yadnika10/Major-Project/assets/122971264/15479d82-6584-425b-be82-c3f4f69d4b3c)
+**index.html file & style.css**
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 22_57_29](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c8b4380f-870d-4a42-89f6-101404db67f5)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 22_58_38](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/423b560c-5e04-449f-96a5-f30a2d8b72a8)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 22_58_53](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/8fe14611-a503-47c7-b21f-6d78966d0b17)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 22_59_05](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/2a8bd42a-c981-4c77-af82-26932b0ec831)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 22_59_16](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/65a877cd-454b-4084-8717-b8e5a6c74895)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 22_59_28](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/9553c7a0-114c-42c2-83f2-4e19777f7eb2)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 22_59_40](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/0964719d-6133-4d3c-bbf0-363a9b387dee)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 22_59_52](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/97f94af2-51cf-4f0d-bf00-63af128ebae7)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_00_07](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/7498cb79-3d3c-4400-9650-0e21b2d921af)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_00_13](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/cb1fe749-9ae3-409a-91d8-c24c8ef4254c)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_00_17](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/fb769783-2833-4568-b1d0-c7cedfce0064)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_00_23](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/3a8aeea0-caec-40d7-81e4-7a59106e8eb6)
+
+![Photos 28-08-2023 23_00_54](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/18b9fade-4dd0-4eea-89a4-7ed778859fe8)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_00_59](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/ff31428a-b17d-4ffb-822b-cd81732d73f5)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_01_13](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/3586a030-f2ad-435c-bf94-8bc6d1b588ac)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_01_24](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/200708a2-335f-4466-9aa6-794cc2fbbed0)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_01_32](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c3cc6883-a1f7-4dcb-aa12-ff1464837466)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_01_35](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/d983d89a-2db9-437c-a324-8a76559df549)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_01_46](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/bea7d2c5-2fd6-4bfa-9caa-879a6e7a9bfc)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_01_57](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/495d65eb-7464-4d7d-a3f8-3ad066e6d86c)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_02_05](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/ecbe0e1e-3b52-431c-86ea-42ffe5385391)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_02_09](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/cffdcc45-2f98-464c-97d9-c60a2624ed6d)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_02_18](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/bd70eadb-fa12-4e43-a625-c3cdaca112b7)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_02_30](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/67b6cde8-a73d-455c-8338-9f9cc9db2bb6)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_02_35](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/e443aadd-8fe0-4564-99e8-f32eb0bf8301)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_02_44](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c1793079-1889-4689-997e-29ff0c3b1ef9)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_02_52](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/7dcb5fa9-7984-4b3c-99ea-102b514e9d84)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_02_59](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/88295d88-a4a0-43cc-bee2-915530ff9bb0)
+
+![style css - Geekster_Assignments - Visual Studio Code 28-08-2023 23_03_10](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/16c78b7b-9307-46f4-97bf-ef61477e68bb)
+
+---
+## EXPLANATION:
+
+---     
+## OUTPUT:
+
+![Editing Geekster_Assignments_50_Major_Project_README md at master · Abhishek-Sharma-007_Geekster_Assignments and 2 more pages - Personal - Microsoft​ Edge 28-08-2023 23_07_57](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/b9526265-8b16-422a-bddd-adc6cb13d354)
+
+![Major Project - Personal - Microsoft​ Edge 28-08-2023 23_08_13](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c4033fea-44ad-4ffc-91c3-a3771c5e12ed)
+
+![Major Project - Personal - Microsoft​ Edge 28-08-2023 23_08_23](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/89e5842e-b24f-4867-adec-8a5210f49f5b)
+
+![Major Project - Personal - Microsoft​ Edge 28-08-2023 23_08_36](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/ce12a45e-bd8f-4a26-9150-95a499e1e476)
+
+![Major Project - Personal - Microsoft​ Edge 28-08-2023 23_08_43](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/47a0f37e-18d4-4364-bcc9-70fb565f8d63)
+
+![Major Project - Personal - Microsoft​ Edge 28-08-2023 23_08_51](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/ed9e6a8c-011f-4461-a6ec-44adc65c88e4)
+
+![Major Project - Personal - Microsoft​ Edge 28-08-2023 23_08_58](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c3e3a103-8891-449c-9e02-f6988a90e812)
+
+![Major Project - Personal - Microsoft​ Edge 28-08-2023 23_09_06](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/80a0f35d-6081-42c7-b1f5-7ba010d4d04b)
+
+![Major Project - Personal - Microsoft​ Edge 28-08-2023 23_09_14](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/feac1e7f-3328-4366-b13d-bd701349d472)
+
+![Major Project - Personal - Microsoft​ Edge 28-08-2023 23_09_25](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/aaa66185-3583-4b88-80c2-7e12af25861f)
+
+![Major Project - Personal - Microsoft​ Edge 28-08-2023 23_09_32](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/04b16cd4-815f-44de-b518-c21f5154b516)
+
+![Major Project - Personal - Microsoft​ Edge 28-08-2023 23_09_39](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/e5ecd99d-00a0-469a-b637-7bac334c5a17)
+
+---
+## Submission Required:
+- GitHub Repository Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/50_Major_Project)
+- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/50_Major_Project/README.md)
+- Hosted Link: [Click Here](https://abhishek-sharma-007.github.io/Geekster_Assignments/50_Major_Project/index.html)
