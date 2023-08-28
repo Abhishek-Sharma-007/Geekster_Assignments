@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
     font-family: 'Open Sans', sans-serif;
 }
 html,body{
@@ -31,7 +30,6 @@ html,body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Montserrat', sans-serif;
 }
-/* -----------------nav section---------- */
 .icon{
     background-color: #14BF98;
     color: white;

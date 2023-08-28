@@ -4,8 +4,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    /* font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Roboto Serif', serif; */
 }
 html,body{
     width: 100%;
@@ -16,9 +14,6 @@ html,body{
     scroll-behavior: smooth;
 }
 hr {width: 50%; margin: 0 25% 0 25%;}
-
-
-/* -------------Navbar--------------- */
 .header-sec{
     position: fixed;
     width: 100%;
