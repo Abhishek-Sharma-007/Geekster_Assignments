@@ -1,62 +1,108 @@
-# Weekly_test_boosted_skate
-Hosted-Link:
-https://yadnika10.github.io/Weekly_test_boosted_skate/
-<br>
-__Note::Huge File please scroll till the end..
+# Weekly Test - 6 CSS Properties.
+---
+## TASK 
+- You need to complete **"Weekly Test 6"** task, and we have learned basic CSS Properties like:
+1. **Header-section:**
+   - The header contains a navigation bar with a logo and icons.
+   - The header's position is set to "fixed," meaning it stays in a fixed position on the screen while scrolling.
+   - The use of `z-index` is likely employed to control the stacking order of elements, ensuring the header appears above other content when necessary.
+2. **Home:**
+   - The "Home" section comprises four image boxes, each occupying 50% of the width of their container.
+   - These image boxes are displayed using the CSS property `display: flex`, which allows for flexible layout and alignment of their contents.
+   - The images inside these boxes are set to have a width of 100%, ensuring they fill their respective containers.
+3. **Banner-1:**
+   - "Banner-1" contains four images arranged in a flex container.
+   - The use of `flex-wrap` property suggests that the images can wrap onto the next line if they don't fit in the available horizontal space.
+   - This structure is likely consistent for other banners with images and text.
+4. **Info:**
+   - Text within the "Info" section is centered.
+   - Colors and text decorations like font styling or underlines may be applied to enhance the visual presentation.
+5. **Features-section:**
+   - The "Features-section" is divided into three parts, each consisting of images and text displayed in a row format.
+   - `flex` and `flex-row-reverse` are used to control the layout, with "flex-row-reverse" possibly flipping the order of items.
+   - Boxes containing these features have defined widths and padding to control spacing.
+6. **Iframe for YouTube video:**
+   - An iframe is used to embed a YouTube video.
+   - The iframe's width is set to 100%, ensuring it scales to the container's width, and the height is fixed at 600 pixels.
+7. **Products-section:**
+   - This section contains items and their prices presented in a scrollable fashion.
+   - A scroll bar is added to enable users to scroll through the content.
+   - Flex properties are likely used to arrange and style the items within this section.
+8. **Subscribe:**
+   - The "Subscribe" section includes a form.
+   - There are hover effects applied to buttons, which may involve changing the button's appearance when the user hovers over them.
+   - The form and buttons are centered using `display: flex`.
+9. **Footer:**
+   - The footer is displayed using a `flex` layout, allowing for flexible arrangement of its contents.
+10. **Media Queries:**
+    - Media queries are used to apply different styles and layout rules for different screen sizes.
+    - For extra small devices (e.g., phones with a screen width of 600px or less), styles like `flex` and `width: 100%` are applied, possibly to make content stack vertically and take up the full width.
+    - For large devices (e.g., laptops and desktops with a screen width of 992px or more), styles may include reducing padding and margin, as well as setting `flex-wrap` properties to control layout. These changes optimize the design for larger screens.
+---
+## CODE:
 
-1.Header-section:<br>
--Header has navbar as flex with logo and icons.<br>
--Positions as fixed.<br>
--Z-index<br>
-2.Home:<br>
--Home has 4 image-box that has 50% width and display as flex and images have 100% width to the image-box.<br>
-3.Banner-1:<br>
--Banner-1 has 4 images as flex and property of flex wrap.<br>
--Same for all banners that have images and text.<br>
-4.Info:<br>
--Text aligned in center and added colors and decoration.<br>
-5.Features-section:<br>
--Features have 3 parts images and text as flex row and flex-row-reverse and width to the boxes and some padding.<br>
-6.Iframe for youtube video with width 100% and height as 600.<br>
-7.Products-section:<br>
--It has items and prices in Scroll fashion added scroll bar and flex to it.<br>
-8.Subscribe:<br>
--Has one form hover effets to all buttons and form in center display of this div also as flex.<br>
-9.Footer:<br>
--Flex display.<br>
-10.Media Queries:<br>
--for Extra small devices (phones, 600px and down) and <br>
--Large devices (laptops/desktops, 992px and up).<br>
--Display as flex and width for them as 100% and reduction in padding and margin and flex wrap property.<br>
+**index.html file & style.css**
 
-![1](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/5dc34261-3914-4759-9af0-b97464fc27e1)
-![2](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/f1837670-4cdd-4e72-83d0-2b285db94024)
-![3](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/c8a13f86-b834-40bd-b30d-267347fe3923)
-![4](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/1da3f9e9-5a26-4113-b37b-fd540770c4cf)
-![5](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/ed6855e1-f290-46ed-8027-a3b814040a38)
-![6](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/d640bed7-9c3a-41e8-9249-d028adac49ad)
-![7](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/d3597255-d4b0-4735-a560-63bee787ca9e)
-![8](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/318ea943-d126-4448-8fa7-c10552e045b8)
-![9](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/cd986075-4186-43a4-9b9e-e688d8222c6b)
-![10](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/323846ad-b3f2-47f9-990b-f4cc0b74ee70)
-![11](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/a630620d-bbea-49f7-b474-8be5c49c1824)
-![1](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/3019d8c9-5a86-410b-a933-668aa6327995)
-![2](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/b39b46b3-4004-465e-821e-f56ca81b6433)
-![3](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/a9cde0a4-18aa-4ebb-ae61-e8ef989b99b7)
-![4](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/aa0097af-ff35-4d5d-b16d-8ca8e25dc474)
-![5](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/12c9691c-13b3-4fc2-a049-ab7dbc098571)
-![6](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/f899c61a-9396-4ecb-842e-e83ae004ee70)
-![7](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/03067b15-9969-486d-846c-adfc0ce1076f)
-![8](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/d4327254-31ff-4a94-abe3-7e1aeb758233)
-![1](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/44515051-b944-485e-b851-0b5df21dee88)
-![2](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/fd53ca47-9bf3-4817-9355-5d6e6db27ce8)
-![3](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/a541bda4-5d9c-4166-8f3b-64463679d07a)
-![4](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/045c82cf-bb18-4ba4-942c-b11da89f3fce)
-![5](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/fad6759e-cea2-46e8-8b59-7dca909b0e99)
-![6](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/7d9c112c-9cc4-4a65-8420-8613eb18139a)
-![7](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/984f8325-b005-4fab-a293-c2823a33dab0)
-![8](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/a7eb037a-fb60-4846-89c4-1e160fc2b97e)
-![9](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/1370036a-af65-43a6-8f93-4cf1cf43b699)
-![10](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/05894a9c-fab5-4884-8969-bf36c4aa9f5e)
-![11](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/1b8758f3-bde4-4f0a-ab6d-946f29c98698)
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_22_35](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/53f50edc-3ffc-4962-b7c7-ca3b13293b79)
 
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_22_44](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/9dcd730a-77e2-4f4b-a630-300d407705c7)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_22_54](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/72adcf44-31b9-4079-823b-55cb04d0580c)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_22_59](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/40f8c8d7-7865-4c5e-948f-554b37593af8)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_23_02](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/501a5af5-2455-412b-98a3-e61b23f1b720)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_23_06](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/4070e2e2-8414-4403-ac32-37bcc8ef5be4)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_23_22](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c8293e89-0eca-43dc-be91-5b4278afcd95)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_23_25](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/a029f57a-ca9a-4e39-9830-3cdaf8a7b384)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_23_28](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/54875a02-cd79-4843-9834-e99c9b3a49d3)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_23_32](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/24181150-b328-41b9-980a-a0f005b9b8ea)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_23_35](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/e9b83d84-53cf-48f5-907d-745279a1bed1)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_23_42](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/da5e445b-61eb-4731-a93c-a14bb64737d6)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_23_47](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/4349c710-e275-4806-afc9-489324f03fda)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_23_53](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/30f50398-98e7-4af0-b6d4-ebbbb72f210b)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_23_59](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/4336f157-e7f8-4768-80d4-1cdb4c6e3e4a)
+
+![index html - Geekster_Assignments - Visual Studio Code 28-08-2023 23_24_06](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/98a5ebce-527e-4833-94a4-63305f27f145)
+
+---
+## OUTPUT:
+![Booster Electric Scooters - Personal - Microsoft​ Edge 28-08-2023 23_28_50](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/80acc381-6afb-470f-b6b8-622d2975e3b2)
+
+![Booster Electric Scooters - Personal - Microsoft​ Edge 28-08-2023 23_28_56](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/8b7468e9-deaa-44a0-9ca2-05ab63fdf962)
+
+![Booster Electric Scooters - Personal - Microsoft​ Edge 28-08-2023 23_29_00](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/8c0afa51-c851-431c-a8fc-75d91ab2dd84)
+
+![Booster Electric Scooters - Personal - Microsoft​ Edge 28-08-2023 23_29_10](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/44f8f10b-ced2-4c75-97a3-28ec0c74a7c5)
+
+![Booster Electric Scooters - Personal - Microsoft​ Edge 28-08-2023 23_29_14](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/66a98639-8001-43f5-84d7-d3216780ec39)
+
+![Booster Electric Scooters - Personal - Microsoft​ Edge 28-08-2023 23_29_24](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/5840d72e-93f4-415f-bebc-98c30ba0295f)
+
+![Booster Electric Scooters - Personal - Microsoft​ Edge 28-08-2023 23_29_32](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/ebca348f-38d6-41ff-81be-5e4d2234e585)
+
+![Booster Electric Scooters - Personal - Microsoft​ Edge 28-08-2023 23_29_38](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/643a47d1-5ad9-4785-bd3e-1f1b766e7a4b)
+
+![Booster Electric Scooters - Personal - Microsoft​ Edge 28-08-2023 23_29_46](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/f0022d19-0b55-4ca8-b8a8-3fe771f3307a)
+
+![Booster Electric Scooters - Personal - Microsoft​ Edge 28-08-2023 23_29_53](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/30c0e9e2-8cff-4c0b-b771-30134b9aca98)
+
+![Booster Electric Scooters - Personal - Microsoft​ Edge 28-08-2023 23_30_00](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/e1d3f9cb-bfe1-46d2-bd2a-46b5af0c8796)
+
+![Booster Electric Scooters - Personal - Microsoft​ Edge 28-08-2023 23_30_08](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/dd1f08a2-f7b2-4120-9a41-5f0124e9582f)
+
+---
+## Submission Required:
+- GitHub Repository Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/tree/master/51_Weekly_Test_-6_CSS)
+- README.md File Link: [Click Here](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/blob/master/51_Weekly_Test_-6_CSS/README.md)
+- Hosted Link: [Click Here](https://abhishek-sharma-007.github.io/Geekster_Assignments/51_Weekly_Test_-6_CSS/index.html)
