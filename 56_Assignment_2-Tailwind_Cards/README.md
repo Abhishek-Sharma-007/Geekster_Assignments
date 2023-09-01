@@ -2,26 +2,25 @@
 ---
 ## TASK 
 - You need to complete **Tailwind Cards** task, and we have learned basic CSS Properties like:
-1. **Responsive Design with Breakpoints:**
-   - Tailwind CSS provides responsive design utilities through breakpoints. You can use `sm`, `md`, `lg`, `xl`, and `2xl` classes to define different styles for various screen sizes. For example, `md:w-1/2` sets an element to take up half the width of the screen on medium-sized screens.
-2. **Spacing and Margin:**
-   - Tailwind includes classes for setting margins (`m-`, `mt-`, `mb-`, `ml-`, `mr-`) and padding (`p-`, `pt-`, `pb-`, `pl-`, `pr-`) in various sizes. This allows you to quickly adjust the spacing between elements and within elements.
-3. **Typography:**
-   - Tailwind provides classes for text styles, including font size (`text-`), font weight (`font-`), text color (`text-`), and text alignment (`text-`). You can easily apply these classes to your text elements.
-4. **Background and Border:**
-   - Tailwind offers classes for background colors (`bg-`), border colors (`border-`), border widths (`border-`), and border radius (`rounded-`). This simplifies the process of styling backgrounds and borders.
-5. **Layout and Flexbox:**
-   - Tailwind includes classes for controlling layout and positioning, such as `flex`, `inline-flex`, `flex-wrap`, `justify-`, and `items-`. These classes make it easy to create flexible and responsive layouts.
-6. **Visibility and Display:**
-   - You can use classes like `hidden`, `block`, `inline`, `table`, and `flex` to control the visibility and display of elements on different screen sizes.
-7. **Hover and Focus States:**
-   - Tailwind makes it easy to define hover and focus states for elements with classes like `hover:`, `focus:`, and `focus-within:`. This allows you to add interactivity to your UI without writing custom CSS.
-8. **Customization with CSS Variables:**
-   - Tailwind allows you to customize the default styles by modifying CSS variables (prefixed with `--tw-`). This enables you to create a consistent design system for your project.
+1. **Utility-First Approach:** Tailwind follows a utility-first approach, which means that it provides a large set of utility classes that you can use to style your elements. This eliminates the need to write custom CSS for most of your UI elements, saving you a lot of time and effort.
+2. **Responsive Design:** Tailwind makes it easy to create responsive designs by providing classes for various screen sizes. You can use classes like `sm`, `md`, `lg`, and `xl` to apply different styles based on the screen width. For example, `lg:text-xl` will increase the font size on large screens.
+3. **Flexibility:** Tailwind is highly flexible and allows you to customize your styles by modifying the configuration file. You can add your own utility classes or tweak existing ones to match your project's design system.
+4. **Rapid Prototyping:** Tailwind is excellent for rapid prototyping. You can quickly build and iterate on UI components by applying classes directly to HTML elements. This means you spend less time writing CSS and more time designing and refining your UI.
+5. **Readability and Maintainability:** Tailwind classes are self-explanatory and provide a clear separation of concerns. This makes your HTML markup more readable and makes it easier for your team to maintain and collaborate on the codebase.
+6. **Consistency:** Tailwind enforces consistency in your UI design because it encourages you to use a predefined set of classes. This consistency can lead to a more polished and professional-looking application.
+7. Commonly used properties in Tailwind CSS:
+   - **Text Color (`text-`):** Tailwind provides classes like `text-red-500` to set the text color. The number represents the shade of the color.
+   - **Background Color (`bg-`):** Classes like `bg-blue-300` set the background color of an element.
+   - **Padding (`p-`) and Margin (`m-`):** These classes control the spacing around elements. For example, `p-4` adds padding of 1rem (16px), and `m-2` adds a margin of 0.5rem (8px).
+   - **Font Size (`text-`):** Use classes like `text-lg` to set the font size. The sizing is based on a predefined scale.
+   - **Flexbox (`flex`, `justify-`, `items-`):** Tailwind includes classes for creating flexible layouts easily. `flex` sets an element to a flex container, `justify-center` centers items horizontally, and `items-center` centers items vertically within a container.
+   - **Grid (`grid`, `grid-cols-`, `gap-`):** Tailwind provides classes for creating grid layouts. `grid` sets an element as a grid container, `grid-cols-3` divides the container into three columns, and `gap-4` adds a 1rem (16px) gap between grid items.
+   - **Responsive Prefixes (`sm:`, `md:`, `lg:`):** These prefixes allow you to apply classes conditionally based on screen sizes. For example, `md:text-xl` will apply the `text-xl` class only on medium-sized screens and larger.
+   - **Customization:** Tailwind allows you to customize the default configuration to add your own classes, modify existing ones, or define your color palette, making it adaptable to your project's needs.
 ---
 ## OUTPUT:
 
-![New File at 54_Assignment_1-Tailwind_project · Abhishek-Sharma-007_Geekster_Assignments and 4 more pages - Personal - Microsoft​ Edge 01-09-2023 21_04_53](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/188b2dc6-48a2-4b36-abaf-c7b0263a4169)
+![Editing Geekster_Assignments_55_Assignment_2-Tailwind_Card_README md at master · Abhishek-Sharma-007_Geekster_Assignments and 2 more pages - Personal - Microsoft​ Edge 02-09-2023 00_29_46](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/088702c3-a825-4939-a22d-81fdd6ca2567)
 
 ---
 ## Submission Required:
@@ -30,70 +29,62 @@
 - Hosted Link: [Click Here](https://abhishek-sharma-007.github.io/Geekster_Assignments/56_Assignment_2-Tailwind_Cards/index.html)
 
 ## CODE:
+
 **index.html file & style.css**
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_10](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/cf3b0e9f-b3e9-473a-9af3-81c23eb3e4e6)
+![Geekster_Assignments_56_Assignment_2-Tailwind_Cards_README md at master · Abhishek-Sharma-007_Geekster_Assignments and 2 more pages - Personal - Microsoft​ Edge 02-09-2023 00_31_40](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c8808be5-0a9e-429d-9410-a62ddf6711fb)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_15](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/1b5558ad-7175-4ecb-8350-e0202ffe65ad)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_31_43](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/36f953d0-ee33-4e71-b136-dd66ad549945)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_17](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/b4a76d90-d16c-4e10-a360-07de10457fb0)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_31_46](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/d41a2597-c834-447c-b71c-c07a866f9b5d)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_20](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c269afb1-462a-49ba-994f-761d377278bf)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_31_48](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/23731472-c418-460a-964b-b366e4bce987)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_22](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c1a4269d-56c2-4aae-b432-83a9c982853e)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_31_51](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/bb89baf8-ac0a-421b-9ab8-e7eedafc71a3)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_23](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/a1ed13a4-676b-477c-8c10-870151bc37a8)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_31_57](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/61d7955f-93cc-4571-9fe9-6043327d450a)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_25](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/8e493efb-6ec3-4ad8-8df7-5e7ec6fab5ca)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_00](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c8051bcf-deb5-4b53-8e78-0f3547f5c680)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_26](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/446837cf-be75-4e76-b07f-5b617f356745)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_03](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c7b82de7-4406-4a1f-994f-70ee6a9f9fd3)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_28](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/6d06fdec-a46d-4512-9c48-e4c1bb2f723c)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_05](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/5ce0d001-c8a9-4601-ad4f-8ee869c60dd7)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_30](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/26635014-2f82-4a65-8ac0-528e123364d6)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_08](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/2dffde76-9bb3-4c1f-8c5a-a2327ac50891)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_31](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/268f8661-131c-491c-b925-8c1717a96b0e)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_13](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/01a94542-07e4-4e6b-99c3-9648f7c247b2)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_36](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/06458e7c-58d4-44d1-b184-dee303ccc902)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_19](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/aa75da0b-bd70-466e-92fd-d0f5cfe4b820)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_42](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/e099ad34-2867-4ffb-b1fa-2e8d89a72359)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_22](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/033ba1fa-60c6-47f9-af91-208c5c95faf9)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_48](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/e13d74ce-6a0f-4c23-b73c-1e9a36e48ea1)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_25](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/86762f33-531b-425c-95ab-d563dba56fa7)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_50](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/3bf15560-a005-48d6-be15-14044d7e38d9)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_27](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/7dc95c02-e240-42ea-a5f5-def80468356c)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_52](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/b86d2ba5-ba00-4077-8d2d-ab73b69338c7)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_29](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/4f45cbb2-8c39-456b-9a16-d0e56dd39c45)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_54](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/baecaeed-06c9-48ae-b98c-93ad0eda6d7e)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_32](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/c4db045c-9f04-44e1-962d-76775f8029bc)
 
-![index html - Geekster_Assignments - Visual Studio Code 01-09-2023 21_01_56](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/08a08b6d-43fb-494f-881b-789e1bd8ae2a)
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_34](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/3ef08fd3-4561-4cc9-9f3a-e05f55a91383)
 
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_39](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/cd42082d-5aeb-4cbe-9259-0ed755cf6983)
+
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_51](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/06a11f11-ca84-4177-aa73-ee05519c409c)
+
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_53](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/902bfa15-e041-495a-88e1-9153b41e7ec3)
+
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_55](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/bc522632-562b-48be-a9f2-156ac78042d1)
+
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_57](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/d8f7f90e-e73a-44e6-97d2-ab74b2fbe390)
+
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_32_59](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/890d426e-65da-4255-a22d-9f0710dce997)
+
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_33_02](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/ee4ae20b-fef8-435e-936e-ba6e2f1cc4ce)
+
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_33_09](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/0f0c7847-f7a0-49eb-9d08-a7c6f555fa28)
+
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_33_16](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/f87a64bd-9237-4ca1-9356-bc646b6dd25c)
+
+![index html - Geekster_Assignments - Visual Studio Code 02-09-2023 00_33_33](https://github.com/Abhishek-Sharma-007/Geekster_Assignments/assets/84591804/eb031dac-5989-4ab9-8a22-d1026abf7a63)
 ---
-## EXPLANATION:
-
-1. **HTML:**
-    1. The HTML document begins with a standard HTML5 structure.
-    2. It includes a `<head>` section with metadata and a reference to an external CSS file named "style.css."
-    3. The content of the card is within the `<body>` element, enclosed in a `<div>` with various Tailwind CSS classes for styling.
-    4. Inside the card `<div>`, there's an image of a retro shoe, product name, price, availability, size options, and buttons for purchasing.
-    5. The product card is designed to be responsive and centered on the page.
-
-2. **CSS:**
-    1. The CSS code begins with some global styles that reset default browser styles and provide consistent styling across different browsers.
-    2. It defines styles for various HTML elements like headings, links, buttons, and form elements.
-    3. The CSS includes responsive classes that adjust styling based on the screen width.
-    4. Several utility classes from Tailwind CSS are used to style elements, such as padding, margins, text sizes, and colors.
-    5. Custom CSS classes like `.before:absolute` are defined to create pseudo-elements with specific positioning and backgrounds.
-    6. **Reset Styles:** These styles reset default browser styles to create a consistent baseline for styling. They include adjustments to text size, font family, margins, padding, and more.
-    7. **Responsive Styles:** Media queries are used to apply different styles based on the screen width. The `.container` class defines maximum widths for different screen sizes.
-    8. **Utility Classes:** Various utility classes are used to style HTML elements, such as `.p-6` for padding, `.text-2xl` for text size, `.bg-red-400` for background color, and `.rounded-lg` for rounded corners.
-    9. **Custom Classes:** Custom CSS classes like `.before:absolute` are defined to create pseudo-elements with specific positioning and backgrounds. These classes enhance the visual design.
-
-3. **Tailwind CSS Properties:**
-    1. **Spacing:** Classes like `.p-6`, `.mb-2`, and `.ml-3` apply padding, margin, and spacing to elements, using Tailwind CSS's spacing scale.
-    2. **Flexbox:** Classes like `.flex`, `.flex-auto`, and `.flex-none` are used to create flexible layouts, defining how elements within the card should behave within flex containers.
-    3. **Sizing:** Classes like `.w-48`, `.w-full`, and `.h-12` control the width and height of elements, making the card and its components responsive.
-    4. **Text Styles:** Tailwind CSS classes like `.text-2xl`, `.text-sm`, and `.font-semibold` set text size and font weight, ensuring consistent typography.
-    5. **Background and Colors:** Classes like `.bg-teal-400`, `.text-slate-500`, and `.text-white` set background colors and text colors, following the Tailwind CSS color palette.
-    6. **Shadow:** Classes like `.shadow`, `.shadow-lg`, and `.shadow-zinc-500` define box shadows to create depth and elevation in the design.
-    7. **Pseudo-elements:** Classes like `.before:absolute`, `.before:-left-60`, and `.before:bg-teal-400` are used to style pseudo-elements like `::before`, adding decorative elements to the card.
